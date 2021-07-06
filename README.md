@@ -20,7 +20,7 @@ Pull requests are welcome to fix any compatibility issues.
 
 ## Deploying to Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy/?template=https://github.com/credinvest/cred-mlflow-server)
 
 This will provision an Heroku app, and a Postgres add-on for persisting metrics etc.
 Artifact store needs to be configured separately, see below.
