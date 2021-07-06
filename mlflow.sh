@@ -16,7 +16,7 @@ DATABASE_URL=${DATABASE_URL//postgres:/postgresql:}
 
 # Credentials for Google Cloud Storage
 if [[ -z "${GOOGLE_APPLICATION_CREDENTIALS}" ]]; then
-    export GOOGLE_APPLICATION_CREDENTIALS=/app/credentials.json
+    export GOOGLE_APPLICATION_CREDENTIALS=/app/google-credentials.json
 fi
 
 if [[ -z "${GOOGLE_APPLICATION_CREDENTIALS_JSON}" ]]; then

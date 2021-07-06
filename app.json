@@ -1,5 +1,5 @@
 {
-  "name": "mlflow-easyauth",
+  "name": "cred-mlflow-server",
   "description": "Mlflow tracking server with simple authentication",
   "keywords": [
     "machine learning",
@@ -7,7 +7,7 @@
     "mlflow",
     "experiment tracking"
   ],
-  "repository": "https://github.com/soundsensing/mlflow-easyauth",
+  "repository": "https://github.com/credinvest/cred-mlflow-server",
   "stack": "container",
   "env": {
     "MLFLOW_TRACKING_PASSWORD": {

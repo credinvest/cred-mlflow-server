@@ -1,3 +1,5 @@
 mlruns/
 /*.json
 dev.env
+.env
+google-credentials.json
