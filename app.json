@@ -17,6 +17,10 @@
     "MLFLOW_TRACKING_USERNAME": {
       "description": "Username for mlflow web dashboard and HTTP API",
       "value": "user"
+    },
+    "CRYPTOGRAPHY_DONT_BUILD_RUST": {
+      "description": "Fix. https://github.com/docker/compose/issues/8105",
+      "value": 1
     }
   },
   "addons": [
